@@ -10,16 +10,14 @@ export default class Layout extends React.Component {
     };
   }
 
-  render() {
-    const myTitle = 'Aloha';
-    setTimeout(() => {
-      this.setState({title: 'Reloading title'})
-    }, 3000);
+  changeTitle(title) {
+    this.setState({title});
+  }
 
+  render() {
     return(
       <div>
-        <Header title={this.state.title}/>
-        <Header title={'Second title'}/>
+        <Header title={this.state.title} changeTitle={this.changeTitle.bind(this)}/>
         <Footer />
       </div>
     );
