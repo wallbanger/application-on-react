@@ -17,12 +17,11 @@ export default class Layout extends React.Component {
     }, 3000);
 
     return(
-        <div>
-          <Header title={this.state.title}/>
-          <Header title={'ol'}/>
-
-          <Footer />
-        </div>
+      <div>
+        <Header title={this.state.title}/>
+        <Header title={'Second title'}/>
+        <Footer />
+      </div>
     );
   }
 }
