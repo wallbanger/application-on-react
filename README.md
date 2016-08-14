@@ -1,6 +1,6 @@
 # Application on React JS
 
-Application test
+Application test flux redux
 
 ## Local Installation
 
