@@ -1,4 +1,4 @@
-# Application on React JS
+# Application based on React JS
 
 Application test flux redux
 
