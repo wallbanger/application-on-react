@@ -1,0 +1,7 @@
+.nav-btn { display: block; }
+.collapse { display: none; }
+
+@media screen and (min-width: 762px) {
+    .nav-btn { display: none; }
+    .collapse { display: block; }
+}
