@@ -3,18 +3,18 @@ import Todo from '../components/Todo'
 
 export default class Featured extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       todos: [
         {
           id: 1234342,
           text: "go to shop",
-          complete: false,
+          complete: false
         },
         {
           id: 21726353,
           text: "pay pizza",
-          complete: false,
+          complete: false
         }
       ]
     }
@@ -23,7 +23,7 @@ export default class Featured extends React.Component {
     const { todos } = this.state;
     const TodoComponents = todos.map((todo => {
       return <Todo key={todo.id} {...todo} />
-    }))
+    }));
     return(
       <div>
         <h1>Todos</h1>
