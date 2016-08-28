@@ -13,7 +13,17 @@ export default class Featured extends React.Component {
         },
         {
           id: 21726353,
-          text: "pay pizza",
+          text: "buy pizza",
+          complete: false
+        },
+        {
+          id: 32133948,
+          text: "read book",
+          complete: false
+        },
+        {
+          id: 493837234,
+          text: "watch movie",
           complete: false
         }
       ]
