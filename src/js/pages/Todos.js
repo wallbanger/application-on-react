@@ -25,6 +25,11 @@ export default class Featured extends React.Component {
           id: 493837234,
           text: "watch movie",
           complete: false
+        },
+        {
+          id: 565676765,
+          text: "play guitar",
+          complete: false
         }
       ]
     }
