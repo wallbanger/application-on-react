@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import Layout from './pages/Layout';
-import Featured from './pages/Featured';
+import Featured from './pages/Todos';
 import Archives from './pages/Archives';
 import Settings from './pages/Settings';
 
